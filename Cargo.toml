@@ -4,7 +4,23 @@ resolver = "2"
 members = [   
     "hello_world",
     "increment",
+    "auth",
     "custom_types",
+    "cross_contract/contract_a",
+    "cross_contract/contract_b",
+    "deployer/contract",
+    "deployer/deployer",
+    "liquidity_pool",
+    "single_offer",
+    "events",
+    "token",
+    "logging",
+    "errors", 
+    "timelock",
+    "atomic_swap",
+    "atomic_multiswap",
+    "account",
+    "alloc",
 ]
 
 [profile.release-with-logs]
